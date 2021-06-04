@@ -38,7 +38,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 
-const dbUrl = process.env.DB_URL2||'mongodb://localhost:27017/hack';
+const dbUrl = process.env.DB_URL2||'mongodb+srv://admin:Mynameisalex@cluster0.tfg5x.mongodb.net/hack?retryWrites=true&w=majority';
 mongoose.connect(dbUrl,
     {useNewUrlParser: true,
         useUnifiedTopology: true,
