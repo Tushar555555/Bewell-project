@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match The Slide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- <div class="statistics">
+    <h5 class="heading">➤ Normal People</h5>
+    <p class="textbelow"> Complete level in less than 40 seconds.</p>
+    <h5 class="heading">➤ Mentally Disturbed</h5>
+    <p class="textbelow"> Unable to complete or take more than 40 seconds </p>
+    <br>
+    <br>
+    <p class="linking-text">Please visit our solutions sections to improve your <a href="solution.html">Memory Power</a>.</p>
+  </div> -->
+
+    <div class="container">
+        <header class="header">
+            <h1>Match The Cards</h1>
+
+        </header>
+
+        <section class="score-panel">
+            <h3>Score Panel</h3>
+            <ul id="star-rating" class="star-rating">
+                <li class="star"><i class="fa fa-star"></i></li>
+                <li class="star"><i class="fa fa-star"></i></li>
+                <li class="star"><i class="fa fa-star"></i></li>
+            </ul>
+            <span class="moves-counter">0</span> Moves
+            <div class="timer-container">
+                <span class="timer"><i class="fa fa-hourglass-start"></i> Timer: 00:00</span>
+            </div>
+            <div class="reset">
+                <button class="btn reset-btn">Reset <i class="fa fa-repeat"></i></button>
+            </div>
+        </section>
+        <!-- Modal section-->
+        <!-- Modal section-->
+
+        <ul class="deck"></ul>
+    </div>
+
+    <!-- Modal -->
+    <section class="win-game-modal">
+        <div id="modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Congratulations!</h2>
+                <p>You have won the game and found all 8 pairs of cards.</p>
+                <img class="modal-img" src="Vault-Boy-Thumb-Up.jpg"
+                    alt="Vault boy giving the thumbs up from the game fall out">
+                <button class="btn play-again-btn">Play Again?</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

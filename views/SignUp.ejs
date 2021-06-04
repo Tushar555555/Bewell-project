@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SignUp</title>
+
+  <!-- CSS stylesheets -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet"  href="/css/login-page.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+  <!-- Nav Bar -->
+
+       <nav class="navbar navbar-expand-lg navbar-bg-dark navbar-dark">
+          <h2 class="logo-text"><a href="/" style="color: white;">BEWELL</a></h2>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+             <!-- <li class="nav-item">
+               <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="about.html">About Us</a>
+             </li> -->
+            </ul>
+         </div>
+        
+       </nav>
+
+
+       <%- include('partials/flash') %>
+  <div class="login">
+    <h1>Sign Up</h1>
+    
+     <!-- /* Create Email ID and Password holder */ -->
+    <form class="form" method="post" action="/auth/signup">
+
+         <p class="field">
+           <input type="text" name="name" placeholder="Name" required/>
+            <i class="width fa-2x fas fa-band-aid"></i>
+         </p>
+
+         <p class="field">
+           <input type="text" name="age" placeholder="Age" required/>
+           <i class="width fa-3x fas fa-blind"></i>
+         </p>
+
+         <p class="field">
+           <input type="email" name="email" placeholder="Email" required/>
+           <i class="width fa-3x fas fa-envelope"></i>
+         </p>
+
+         <p class="field">
+           <input type="text" name="username" placeholder="username" required/>
+           <i class="width fa-3x fas fa-address-card"></i>
+         </p>
+         <p class="field">
+          <input type="text" name="specialization" placeholder="specialization"/>
+          <i class="width fa-3x fas fa-address-card"></i>
+        </p>
+
+         <p class="field">
+           <input type="text" name="country" placeholder="Country" required/>
+           <i class="width fa-3x fas fa-globe"></i>
+         </p>
+
+         <p class="field">
+           <input type="password" name="password" placeholder="Password" required/>
+           <i class="width fa-3x fa fa-lock"></i>
+         </p>
+         <button class="for-color btn btn-primary" type="submit">Submit</button>
+       </form>
+       <!-- Create Login Button -->
+       
+       </div>
+
+    <!--Footer-->
+    <footer class="footer">
+
+        <i class="social-icon fa-2x fab fa-instagram"></i>
+        <i class="social-icon fa-2x fab fa-twitter"></i>
+        <i class="social-icon fa-2x fab fa-facebook-f"></i>
+        <i class="social-icon fa-2x fas fa-envelope"></i>
+        <br>
+        <p class="margin-top">© Copyright 2021 <u>BE WELL</u></p>
+
+</body>
+</html>

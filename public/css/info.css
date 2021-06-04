@@ -1,0 +1,123 @@
+html
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+/* C:\Users\DeLL\OneDrive\Desktop\hackathon\images\stats-background.png */
+body
+{
+    background-image: url("../images/stats-background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: cadetblue;
+		font-size: 5.5rem;
+}
+
+h2 {
+	color: blue;
+    line-height: 1.2;
+}
+
+/* Navbar */
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.1rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem ;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.for-color {
+	color: bisque;
+}
+
+.logo-text {
+  color: #fff;
+	margin: 0 20px;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    font-family: Abhaya Libre;
+    font-size: 6vh;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 4px 4px 1px floralwhite;
+		line-height: 2;
+}
+
+.total
+{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+		    color: brown;
+}
+
+.for-margin-top {
+margin-top: 7%;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-section
+{
+    margin: 2% 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #abdcfb;
+    box-shadow: 5px 5px 5px #93D2FA;
+}
+
+.for-magin-bottom {
+	margin-bottom: 5%;
+}
+
+.footer
+{
+	 padding: 1% 15% ;
+	   text-align: center;
+	   color: ghostwhite;
+  }
+  .social-icon {
+    margin:20px 10px;
+    color: goldenrod;
+}
+.plot
+{
+  margin: auto;
+  width: 80%;
+  padding: 2% 8%;
+  color: white;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Games</title>
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/game.css">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  </head>
+<body>
+
+
+<!-- Navbar -->
+
+     <nav class="navbar navbar-expand-lg navbar-bg-dark navbar-dark">
+           <img id="logo-image" src="/images\logo-image.png" alt="Logo">
+           <br>
+        <h2 class="logo-text">BEWELL</h2>
+       <canvas id="dots">Your browser does not support canvas.</canvas>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="/">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/meditation">Meditation App</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/story">Night Stories</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/yoga">Yoga</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="quiz/quiz.html">Quiz</a>
+           </li>
+         </ul>
+       </div>
+     </nav>
+
+               <!-- Smart-Phone -->
+               <section id ="smartphones">
+                      <div class="smartphone rotate1">
+                        <div class="content precious">
+                         <img class="small-1" src="images/brain-excercise.jpg" alt="">
+                         <h5 class="game-heading">Challenging Brain</h5>
+                         <img class="small-1" src="/images/simon-game.jpg" alt="">
+                         <i class=" game-icon fa-3x fas fa-gamepad"></i>
+                        </div>
+                      </div>
+
+
+                      <div class="smartphone no-rotate">
+                        <div class="content">
+                         <img class="small" src="/images/cup-game.jpg" alt="">
+                         <h5 class="game-heading">Happy Weekend !</h5>
+                         <img class="small-1" src="/images/brain.jpg" alt="">
+
+                        </div>
+                      </div>
+
+                      <div class="smartphone rotate2">
+                        <div class="content very-precious">
+                         <img class="width-reduce" src="/images/progress-meter.jpg" alt="">
+                         <h5 class="game-heading">Track your progress</h5>
+                         <img class="small" src="/images/progress-bar.png" alt="">
+                         <i class="user-icon fa-3x fas fa-user"></i>
+                        </div>
+                      </div>
+               </section>
+
+               <!-- Features -->
+
+               <section id="features">
+
+                 <div class="row">
+
+                   <div class="feature-box col-lg-4">
+                     <i class="icon fas fa-check-circle fa-4x"></i>
+                     <h3>Easy to play.</h3>
+                     <p>So easy to play, even your dog could do it.</p>
+                   </div>
+
+                   <div class="feature-box col-lg-4">
+                     <i class=" icon fas fa-bullseye fa-4x"></i>
+                     <h3>Elite tools.</h3>
+                     <p>We have all the tools, the greatest and the best.</p>
+                   </div>
+
+                   <div class="feature-box col-lg-4">
+                     <i class="icon fas fa-heart fa-4x"></i>
+                     <h3>Guaranteed to work.</h3>
+                     <p>Find the ways to improve your attention and focus on things that matter.</p>
+                   </div>
+
+                 </div>
+               </section>
+               <!-- games-courosel -->
+
+                <section class="games-courosel">
+
+
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="game-image" src="/images\cup-game.jpg" alt="Cup-Game">
+                          <h3>ONE to Check CONCENTRATION POWER</h3>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="game-image" src="/images\match-the-tile.png" alt="Match-The-tile-Game">
+                          <h3>ONE for ATTENTION span</h3>
+                      </div>
+                      <div class="carousel-item">
+                         <img class="game-image" src="/images\simon-game.jpg" alt="Simon-Game">
+                      <h3>One more for GOOD MEASURE</h3>
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+
+                </section>
+
+
+ <!-- Gaming Section -->
+<section class="Lets-play">
+  <div class="album py-5">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm necessary">
+             <img src="/images/cup-game.jpg" alt="">
+
+            <div class="card-body">
+              <h5 class="header-color">Concentration Power </h5>
+              <p class="card-text">The act or process of concentrating, especially the fixing of close, undivided attention.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a target="_blank" href="/games/Find the ball master/find the ball.html" class="">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Let's Play</button>
+                  </a>
+                </div>
+                <small class="text-muted">5 mins</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card shadow-sm necessary">
+            <img src="/images/simon-game.jpg" alt="">
+
+            <div class="card-body">
+              <h4 class="header-color">Attention Span</h4>
+              <p class="card-text">The time in seconds one can do a very simple task without making mistakes.
+               Although the task is very simple, it runs relatively quickly and requires full attention.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a target="_blank" href="/games/simon game/index.html" class="">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Let's Play</button>
+                  </a>
+                </div>
+                <small class="text-muted">10 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm necessary">
+            <img src="/images/match-the-tile.png" alt="">
+
+            <div class="card-body">
+              <h3 class="header-color">Memory Check</h3>
+              <p>The power, act, or process of recalling to mind facts previously learned or past experiences.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a target="_blank" href="/games/Match the slides/match the slide.html" class="">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Let's Play</button>
+                </a>
+                </div>
+                <small class="text-muted">3 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+                <!-- Footer -->
+
+                <footer id="footer">
+
+                  <i class="social-icon fab fa-instagram"></i>
+                  <i class="social-icon fab fa-twitter"></i>
+                  <i class="social-icon fab fa-facebook-f"></i>
+                  <i class="social-icon fas fa-envelope"></i>
+                  <p>© Copyright 2021 <u>BEWELL</u></p>
+
+                </footer>
+
+
+        <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="js/info.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,90 @@
+body {
+  background-color: cadetblue;
+}
+
+.games-courosel {
+background-color: cadetblue;
+  color: #fff;
+  text-align: center;
+}
+
+.game-image {
+  height: 300px;
+  margin: 20px;
+  float: left;
+    margin-right: 8%;
+}
+
+.carousel-item {
+  padding: 4% 15% ;
+}
+
+.storing-text {
+  text-align: left;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+.paragraph {
+  clear: left;
+}
+
+.logo-image {
+  margin: 0 20px;
+  height: 100px;
+}
+
+.logo-text {
+  color: #fff;
+}
+
+.countdown {
+  background-color: #fff;
+  height: 70px;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+
+/* .navbar {
+  padding: 0 0 4.5rem;
+} */
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.1rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem ;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.color {
+  background-color: cadetblue;
+  margin: 5% 0;
+}
+
+
+/* Footer Section */
+
+#footer {
+  background-color: cadetblue;
+  padding: 1% 15% ;
+  text-align: center;
+  color: black;
+}
+
+.social-icon {
+  margin:20px 10px;
+}

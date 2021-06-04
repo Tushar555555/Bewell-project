@@ -1,0 +1,60 @@
+.logo-text {
+  color: #fff;
+  margin: 0 20px;
+}
+/* Navbar */
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.1rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem ;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+.header-color {
+  color: blueviolet;
+}
+
+.necessary {
+  background-color: bisque !important;
+  color: darkblue;
+}
+
+.details {
+  float: left;
+}
+
+..header-color-1 {
+  float: left;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 1% 15% ;
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.social-icon {
+  margin:20px 10px;
+}

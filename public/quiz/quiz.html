@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Word Puzzle</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.rawgit.com/robbmj/simple-js-countdown-timer/master/countdowntimer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+
+<body style="padding: 0%; margin: 0%;" onload="onload();">
+
+    <div id="firstscreen">
+        
+    </div>
+
+  <div id="secondscreen" >
+    <div class="container-fluid border bg-primary text-white" id="main">
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+                <center>
+                    <h1 id="timer">00:00</h1>
+                    <p id="question">question</p>
+                </center>
+                <div class="input-group mb-3 input-group-lg" id="puzzleword" style="padding-top: 5vh;">
+                    <!-- <input type="button" class="puzzle-char"  onclick="charOnClick(this.value);" value="u"></input> -->
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row" id="puzzleword">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <center>
+                    <p id="answer">answer</p>
+                </center>
+                <div class="input-group mb-3 input-group-lg" id="puzzleword" style="padding-top: 5;">
+                    <textarea id="puzzlesolution" value="" disabled></textarea>
+                </div>
+                <div class="input-group mb-3 input-group-lg" id="puzzleword" style="padding-top: 5;">
+                    <input type="image" src="img/next.png"id="next-btn" value="Next" alt="Submit" class="puzzle-next" onclick="LoadGui();">
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6" id="myAlert">
+                <div class="jumbotron jumbotron-fluid bg-success" style="visibility: hidden; z-index: 2;">
+                    <div class="container">
+                        <h1 id="result"><i class="fas fa-thumbs-up"></i> Waiting for Result</h1>
+                        <p id="msg" style='padding-left:9%;'>Card number AAAA-BBBB-CCCC-DDDD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div id="snackbar">
+            <div class="alert alert-success">
+                <strong>Success!</strong> Indicates a successful or positive action.
+            </div>
+        </div>
+    </div>
+
+    <div id="thirdscreen"></div>
+</body>
+<script src="src/js/script.js"></script>
+
+</html>

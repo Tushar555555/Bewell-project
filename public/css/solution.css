@@ -1,0 +1,124 @@
+body {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2.9rem;
+}
+
+#logo-image {
+  margin: 0 20px;
+  height: 100px;
+}
+
+.logo-text {
+  color: #fff;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.1rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem ;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.color-class {
+  background-color: bisque;
+}
+
+.yoga {
+  font-size: 3.5rem;
+  color: ghostwhite;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.collage {
+  margin: 2% 2%;
+  border: 10px solid red;
+  background-color: coral;
+  float: left;
+  width: 550px;
+  border-radius: 10%;
+}
+
+.left-div {
+  float: left;
+position: relative;
+margin-left: 3%;
+margin-top: 7%;
+width: 425px;
+}
+
+.right-div {
+  float: left;
+position: relative;
+margin-top: 6%;
+    width: 425px;
+}
+
+.image-1 {
+  width: 260px;
+  margin-left: 25px;
+  margin-top: 6%;
+}
+.image-2 {
+      width: 219px;
+      margin-top: 5%;
+}
+.image-3 {
+      width: 260px;
+      margin-left: 25px;
+margin-bottom: 15px;
+}
+.image-4 {
+  width: 219px;
+}
+.image-5 {
+    width: 210px;
+}
+.image-6 {
+  width: 300px;
+}
+.image-7 {
+  width: 250px;
+  margin-bottom: 10%;
+margin-left: 2%;
+margin-top: 3%;
+}
+.image-8 {
+  width: 250px;
+}
+/* Footer Section */
+
+#footer {
+  padding: 1% 15% ;
+  text-align: center;
+  color: ghostwhite;
+  clear: left;
+}
+
+.social-icon {
+  margin:20px 10px;
+}
